@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .carousel-item h5 {
 color: black;
 font-size: 1.2em;
@@ -30,6 +34,7 @@ font-size: 1.2em;
 .align-cont{
     align-self: center;
     
+    
 }
  a.nav-link{
     text-decoration: none;
@@ -40,4 +45,34 @@ a.nav-link:hover{
     text-decoration: palevioletred underline;
     color: palevioletred !important;
 }
+.align-icon{
+    margin-top: 30px;
+text-align: center;
+}
+i{
+    color: palevioletred;
+    font-size: 4rem;
+    
+}
+i:hover{
+    color: grey;
+    
+}
+i+p{
+    margin-top: 20px;
+}
 
+.btn-primary{
+    background-color:palevioletred ;
+    border-color: palevioletred;
+}
+.btn-primary:hover{
+    background-color:rgb(68, 34, 219) ;
+    border-color: rgb(68, 34, 219);
+}
+
+.prices{
+background: linear-gradient(to right, #000000 , palevioletred) ;
+height: 500px;
+width: auto;
+}
