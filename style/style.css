@@ -1,8 +1,10 @@
+
 *{
     margin: 0;
     padding: 0;
     
 }
+html{scroll-behavior:smooth}
 .carousel-item h5 {
 color: black;
 font-size: 1.2em;
@@ -11,10 +13,8 @@ font-size: 1.2em;
 .carousel-item p{
     font-size: 0.9em;
 }
-.carousel{
-    margin-top: 2%;
- 
-    
+header{
+    margin-top: 50px;
 
 }
 #aboutUs {
@@ -30,7 +30,7 @@ font-size: 1.2em;
 .item{
     flex-wrap: wrap;
 	flex:1 1;
-    box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+    box-sizing:border-box;
     
 }
 .align-cont{
