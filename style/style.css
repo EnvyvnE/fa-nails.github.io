@@ -95,10 +95,17 @@ button{
 }
 .align-price{
 border: 4px solid lightcyan;
-margin:20px 15px 20px;
+margin:40px 15px 40px;
 
 }
 .second-flex-container{
     
     font-size: 0.8em;
+}
+.address-container{
+    margin-top: 25px;
+}
+.address{
+    font-size: 1.5em;
+    margin-left: 25px;
 }
