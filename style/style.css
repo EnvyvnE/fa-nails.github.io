@@ -136,3 +136,10 @@ iframe{
     height: 320px;
     
 }
+a+i{
+    color: black;
+
+}
+a+i:hover{
+    color: yellow;
+}
