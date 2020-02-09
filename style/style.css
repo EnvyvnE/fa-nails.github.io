@@ -111,7 +111,7 @@ margin:40px 15px 40px;
 }
 .address a{
     text-decoration: none;
-    color: #000000;
+    color: white;
 }
 .address a:hover{
     color: #75da57;
@@ -134,4 +134,5 @@ iframe{
     margin: auto;
     width: 320px;
     height: 320px;
+    
 }
