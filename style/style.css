@@ -147,3 +147,19 @@ iframe{
 color: yellow ;
 text-decoration: yellow ;
 }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: transparent;
+
+}
+
+.tab-content{
+color: white;
+}
+.prices{
+    padding:20px 0 20px;
+
+}
+a.nav-link{
+    color: wheat;
+}
