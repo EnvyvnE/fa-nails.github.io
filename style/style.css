@@ -128,5 +128,5 @@ and (max-width : 480px) {
 footer{
     margin-top: 20px;
     background:linear-gradient(to right, #000000 , #75da57) ;
-    color: aliceblue;
+    color: white;
 }
