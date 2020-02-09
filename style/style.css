@@ -152,6 +152,11 @@ text-decoration: yellow ;
     background-color: transparent;
 
 }
+a.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: #cfec2e !important;
+}
 
 .tab-content{
 color: white;
@@ -160,6 +165,8 @@ color: white;
     padding:20px 0 20px;
 
 }
-a.nav-link{
-    color: wheat;
+.tab-pane ul li{
+    margin-left: 40px;
+    list-style: none;
+
 }
