@@ -44,15 +44,15 @@ header{
     color: black !important;
 }
 a.nav-link:hover{
-    text-decoration: palevioletred underline;
-    color: palevioletred !important;
+    text-decoration: #75da57 underline;
+    color: #75da57 !important;
 }
 .align-icon{
     margin-top: 30px;
 text-align: center;
 }
 i{
-    color: palevioletred;
+    color: #75da57;
     font-size: 4rem;
     
 }
@@ -65,8 +65,8 @@ i+p{
 }
 
 .btn-primary{
-    background-color:palevioletred ;
-    border-color: palevioletred;
+    background-color:#75da57 ;
+    border-color: #75da57;
 }
 .btn-primary:hover{
     background-color:rgb(68, 34, 219) ;
@@ -74,7 +74,7 @@ i+p{
 }
 
 .prices{
-background: linear-gradient(to right, #000000 , palevioletred) ;
+background: linear-gradient(to right, #000000 , #75da57) ;
 height: auto;
 width: auto;
 }
@@ -108,4 +108,11 @@ margin:40px 15px 40px;
 .address{
     font-size: 1.5em;
     margin-left: 25px;
+}
+.address a{
+    text-decoration: none;
+    color: #000000;
+}
+.address a:hover{
+    color: #75da57;
 }
