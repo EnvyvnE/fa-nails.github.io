@@ -137,11 +137,11 @@ iframe{
     
 }
 .fab{
-    color: black;
+    color: yellow;
 
 }
 .fab:hover{
-    color: yellow;
+    color: blue;
 }
 .item li:hover {
 color: yellow ;
