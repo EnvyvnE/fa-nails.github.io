@@ -144,5 +144,6 @@ iframe{
     color: yellow;
 }
 .item li:hover {
-color: yellow;
+color: yellow ;
+text-decoration: yellow ;
 }
