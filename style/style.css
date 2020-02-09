@@ -130,3 +130,8 @@ footer{
     background:linear-gradient(to right, #000000 , #75da57) ;
     color: white;
 }
+iframe{
+    margin: auto;
+    width: 320px;
+    height: 320px;
+}
