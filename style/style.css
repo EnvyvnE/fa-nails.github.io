@@ -155,7 +155,7 @@ text-decoration: yellow ;
 a.nav-link {
     text-decoration: none;
     font-weight: bold;
-    color: #cfec2e !important;
+    color: #cfec2e ;
 }
 
 .tab-content{
@@ -169,4 +169,7 @@ color: white;
     margin-left: 40px;
     list-style: none;
 
+}
+a.menu{
+    color: yellowgreen !important;
 }
