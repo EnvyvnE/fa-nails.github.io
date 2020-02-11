@@ -1,175 +1,212 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
-    
-}
-html{scroll-behavior:smooth}
-.carousel-item h5 {
-color: black;
-font-size: 1.2em;
 
 }
-.carousel-item p{
+
+html {
+    scroll-behavior: smooth
+}
+
+.carousel-item h5 {
+    color: black;
+    font-size: 1.2em;
+
+}
+
+.carousel-item p {
     font-size: 0.9em;
 }
-header{
+
+header {
     margin-top: 50px;
 
 }
+
 #aboutUs {
     margin-top: 20px;
     text-align: center;
 }
-.flex{
-	display: flex;
-	flex-flow: row wrap;
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
 
 }
 
-.item{
+.item {
     flex-wrap: wrap;
-	flex:1 1;
-    box-sizing:border-box;
-    
+    flex: 1 1;
+    box-sizing: border-box;
+
 }
-.align-cont{
+
+.align-cont {
     align-self: center;
-    
-    
+
+
 }
- a.nav-link{
+
+a.nav-link {
     text-decoration: none;
     font-weight: bold;
     color: black !important;
 }
-a.nav-link:hover{
+
+a.nav-link:hover {
     text-decoration: #75da57 underline;
     color: #75da57 !important;
 }
-.align-icon{
+
+.align-icon {
     margin-top: 30px;
-text-align: center;
+    text-align: center;
 }
-i{
+
+i {
     color: #75da57;
     font-size: 4rem;
-    
+
 }
-i:hover{
+
+i:hover {
     color: #007bff;
-    
+
 }
-i+p{
+
+i+p {
     margin-top: 20px;
 }
 
-.btn-primary{
-    background-color:#75da57 ;
+.btn-primary {
+    background-color: #75da57;
     border-color: #75da57;
 }
-.btn-primary:hover{
-    background-color:rgb(68, 34, 219) ;
+
+.btn-primary:hover {
+    background-color: rgb(68, 34, 219);
     border-color: rgb(68, 34, 219);
 }
 
-.prices{
-background: linear-gradient(to right, #000000 , #75da57) ;
-height: auto;
-width: auto;
+.prices {
+    background: linear-gradient(to right, #000000, #75da57);
+    height: auto;
+    width: auto;
 }
-  
 
-.item ul li ,h4{
+
+.item ul li,
+h4 {
     list-style: none;
     color: white;
 }
-.align-price{
-    
-    flex:auto ;
-    box-sizing:border-box;
+
+.align-price {
+
+    flex: auto;
+    box-sizing: border-box;
     text-align: center;
 }
-button{
+
+button {
     margin-left: 25%;
 }
-.align-price{
-border: 4px solid lightcyan;
-margin:40px 15px 40px;
+
+.align-price {
+    border: 4px solid lightcyan;
+    margin: 40px 15px 40px;
 
 }
-.second-flex-container{
-    
+
+.second-flex-container {
+
     font-size: 0.8em;
 }
-.address-container{
+
+.address-container {
     margin-top: 25px;
 }
-.address{
+
+.address {
     font-size: 1.5em;
     margin-left: 25px;
 }
-.address a{
+
+.address a {
     text-decoration: none;
     color: white;
 }
-.address a:hover{
+
+.address a:hover {
     color: #75da57;
 }
-.carousel-caption{
+
+.carousel-caption {
     top: 50%;
-    font-size:2em;
+    font-size: 2em;
 }
-@media only screen 
-and (min-width : 320px) 
-and (max-width : 480px) {
-    .carousel-caption {font-size: 0.8em;}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    .carousel-caption {
+        font-size: 0.8em;
+    }
 }
-footer{
+
+footer {
     margin-top: 20px;
-    background:linear-gradient(to right, #000000 , #75da57) ;
+    background: linear-gradient(to right, #000000, #75da57);
     color: white;
 }
-iframe{
+
+iframe {
     margin: auto;
     width: 320px;
     height: 320px;
-    
+
 }
-.fab{
+
+.fab {
     color: yellow;
 
 }
-.fab:hover{
+
+.fab:hover {
     color: blue;
 }
+
 .item li:hover {
-color: yellow ;
-text-decoration: yellow ;
+    color: yellow;
+    text-decoration: yellow;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     color: #fff;
     background-color: transparent;
 
 }
+
 a.nav-link {
     text-decoration: none;
     font-weight: bold;
-    color: #cfec2e ;
+    color: #cfec2e;
 }
 
-.tab-content{
-color: white;
+.tab-content {
+    color: white;
 }
-.prices{
-    padding:20px 0 20px;
+
+.prices {
+    padding: 20px 0 20px;
 
 }
-.tab-pane ul li{
+
+.tab-pane ul li {
     margin-left: 40px;
     list-style: none;
 
 }
-a.menu{
+
+a.menu {
     color: yellowgreen !important;
 }
